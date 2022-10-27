@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .9);
+     /* for white background change body's background color to white and use the commented styles below.*/
+}
+
+p {
+    font-size: 6rem;
+    font-weight: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: transparent;
+    text-shadow:
+        -2px 2px 4px rgba(0, 0, 0, 0.4),
+        5px 2px 0px aqua;
+}
+
+/* p {
+    font-size: 6rem;
+    font-weight: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: transparent;
+    text-shadow:
+        -2px 2px 4px rgba(255,255, 255, 0.4),
+        2px 2px 2px aqua,
+        2px 4px 5px black,
+        5px 2px 0px aqua;
+} */
