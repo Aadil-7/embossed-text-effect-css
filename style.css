@@ -10,38 +10,42 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: rgba(0, 0, 0, .9); */
-    /* for white background change body's background color to white and use the commented styles below.*/
+    /* background-color: rgba(0, 0, 0, 0.9); */
+    /* for BLACK background change body's background color to BLACK and use the commented styles below.*/
 }
 
-p {
+/* FOR BLACK BACKGROUND */
+
+/* p {
     font-size: 6rem;
     font-weight: 1000;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     text-transform: capitalize;
     letter-spacing: 2px;
     color: transparent;
     text-shadow:
-        -2px 2px 2px rgba(0, 0, 0, 0.4),
-        5px 2px 0px aqua,
+        -1px 2px 2px rgba(0, 0, 0, 0.4),
+        5px 2px 0px #a4fa82,
         7px 4px 2px black;
-}
+} */
+
+/* FOR WHITE BACKGROUND */
 
 p {
     font-size: 6rem;
     font-weight: 1000;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:  'Courier New', Courier, monospace;
     text-transform: capitalize;
     letter-spacing: 2px;
     color: transparent;
     text-shadow:
-        -2px 2px 1px rgba(255,255, 255, 0.25),
-        1px 2px 0px hotpink,
-        2px 2px 1px hotpink,
-        3px 2px 0px hotpink,
-        3px 2px 1px hotpink,
-        4px 2px 0px hotpink,
-        5px 2px 0px hotpink,
-        4px 2px 0px hotpink,
+        -2px 2.5px 2px rgba(255,255, 255, 0.25),
+        1px 2px 0px #240124,
+        2px 3px 1px #240124,
+        3px 2px 0px #240124,
+        3px 3px 1px #240124,
+        4px 2px 0px #240124,
+        4px 2px 0px #240124,
+        4px 2px 0px #240124,
         7px 4px 2.5px black;
 }
